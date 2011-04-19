@@ -6,7 +6,9 @@ line 16: Commented out required since we will autoload in kohana
 
 line 32: Also renamed file name to f1_oauth to follow KO3 convention
 
-line 86: CHANGED curl_setopt( $this->connection, CURLINFO_HEADER, false ); TO curl_setopt( $this->connection, CURLOPT_HEADER, false ); it was written wrong in original code
+line 86:
+CHANGED curl_setopt( $this->connection, CURLINFO_HEADER, false ); TO curl_setopt( $this->connection, CURLOPT_HEADER, false );
+It was written wrong in original code
 
 line 131: Load config from KO3 config file as opposed to app config
 
