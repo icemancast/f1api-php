@@ -12,14 +12,12 @@
  * @author Jaskaran Singh (Jas)
  */
 
-
 /**
  * CHANGED: comment out required fields as we will autoload
  */
 // require_once 'RequestSigner.php';
 // require_once 'AppConfig.php';
 // require_once 'Util.php';
-
 
 /**
  * Client library for OAuth
